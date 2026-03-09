@@ -83,7 +83,7 @@
         "timeout": "[parameters('scriptTimeout')]",
         "retentionInterval": "PT1H",
         "cleanupPreference": "OnSuccess",
-        "arguments": "[format('-ContentZipUrl \\''{0}\\'' -ToAddresses \\''{1}\\'' -FromAddress \\''{2}\\'' -EmailsPerRecipient {3} -GtubePercentage {4}', parameters('contentZipUrl'), parameters('toAddresses'), parameters('fromAddress'), parameters('emailsPerRecipient'), parameters('gtubePercentage'))]",
+        "arguments": "[format('-ContentZipUrl ''{0}'' -ToAddresses ''{1}'' -FromAddress ''{2}'' -EmailsPerRecipient {3} -GtubePercentage {4}', parameters('contentZipUrl'), parameters('toAddresses'), parameters('fromAddress'), parameters('emailsPerRecipient'), parameters('gtubePercentage'))]",
         "scriptContent": "[variables('scriptContent')]"
       }
     }
