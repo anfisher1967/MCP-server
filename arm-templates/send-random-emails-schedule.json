@@ -34,8 +34,9 @@
     },
     "scheduleStartTime": {
       "type": "string",
+      "defaultValue": "[dateTimeAdd(utcNow(), 'P1D')]",
       "metadata": {
-        "description": "UTC start time for the daily schedule in ISO 8601 format (e.g. 2026-03-11T08:00:00+00:00). Must be at least 5 minutes in the future."
+        "description": "UTC start time for the daily schedule in ISO 8601 format (e.g. 2026-03-11T08:00:00+00:00). Defaults to 24 hours from now."
       }
     },
     "timeZone": {
