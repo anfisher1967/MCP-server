@@ -1,11 +1,5 @@
 # MCP Server
 
-## Deploy MDO Telemetry Container
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fanfisher1967%2FMCP-server%2Fmain%2Farm-templates%2Fmdotelemetry-deploy.json)
-
-Deploys an Azure Container Instance running the MDO Telemetry container image for generating synthetic Spam/Phish/Malware detections in Microsoft Defender for Office 365.
-
 ## Deploy Random Email Script
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fanfisher1967%2FMCP-server%2Fmain%2Farm-templates%2Fsend-random-emails-deploy.json)
